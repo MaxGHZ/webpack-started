@@ -1,5 +1,5 @@
 import {saludar} from './js/components.js'
-import './styless.css'
+import './styles.css'
 
 const nombre = 'World'
 
