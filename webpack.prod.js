@@ -26,14 +26,14 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                exclude: /styless\.css$/,
+                exclude: /styles\.css$/,
                 use: [
                     'style-loader',
                     'css-loader'
                 ]
             },
             {
-                test: /styless\.css$/,
+                test: /styles\.css$/,
                 use: [
                     MiniCssExtractPlugin.loader,
                     'css-loader'                
